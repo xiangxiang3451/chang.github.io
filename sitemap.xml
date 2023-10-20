@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiangxiang3451.github.io/chang.github.io/about/index-1.html</loc>
+    
+    <lastmod>2023-10-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiangxiang3451.github.io/chang.github.io/about/index.html</loc>
+    
+    <lastmod>2023-10-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiangxiang3451.github.io/chang.github.io/2023/10/20/test-my-site/</loc>
     
     <lastmod>2023-10-20</lastmod>
