@@ -1,4 +1,4 @@
-https://xiangxiang3451.github.io/chang.github.io/about/index.html
-https://xiangxiang3451.github.io/chang.github.io/2023/10/20/test-my-site/
-https://xiangxiang3451.github.io/chang.github.io/2023/10/20/hello-world/
-https://xiangxiang3451.github.io/chang.github.io
+about/index.html
+2023/10/20/test-my-site/
+2023/10/20/hello-world/
+http://0.0.0.8/219/241/45

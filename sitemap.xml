@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xiangxiang3451.github.io/chang.github.io/about/index.html</loc>
+    <loc>about/index.html</loc>
     
     <lastmod>2023-10-20</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://xiangxiang3451.github.io/chang.github.io/2023/10/20/test-my-site/</loc>
+    <loc>2023/10/20/test-my-site/</loc>
     
     <lastmod>2023-10-20</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://xiangxiang3451.github.io/chang.github.io/2023/10/20/hello-world/</loc>
+    <loc>2023/10/20/hello-world/</loc>
     
     <lastmod>2023-10-20</lastmod>
     
@@ -30,7 +30,7 @@
   
 
   <url>
-    <loc>https://xiangxiang3451.github.io/chang.github.io</loc>
+    <loc>http://0.0.0.8/219/241/45</loc>
     <lastmod>2023-10-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
