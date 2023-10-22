@@ -33,7 +33,7 @@
     <category term="Linux" scheme="categories/Linux/"/>
     
     
-    <category term="Linux" scheme="tags/Linux/"/>
+    <category term="Linux" scheme="/tags/Linux/"/>
     
   </entry>
   
@@ -54,7 +54,7 @@
     <category term="Hexo" scheme="categories/Hexo/"/>
     
     
-    <category term="HEXO" scheme="tags/HEXO/"/>
+    <category term="HEXO" scheme="/tags/HEXO/"/>
     
   </entry>
   
