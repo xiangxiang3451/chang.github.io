@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>2023/10/22/C/</loc>
+    
+    <lastmod>2023-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>2023/10/20/hexo/</loc>
     
     <lastmod>2023-10-22</lastmod>
@@ -38,14 +47,14 @@
 
   
   <url>
-    <loc>categories/IT/</loc>
+    <loc>categories/C/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>categories/IT/Hexo/</loc>
+    <loc>categories/Hexo/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

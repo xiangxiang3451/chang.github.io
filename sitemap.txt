@@ -1,6 +1,7 @@
+2023/10/22/C/
 2023/10/20/hexo/
 about/index.html
 http://0.0.0.8/219/241/45/var/www
 tags/HEXO/
-categories/IT/
-categories/IT/Hexo/
+categories/C/
+categories/Hexo/
