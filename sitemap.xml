@@ -47,14 +47,14 @@
 
   
   <url>
-    <loc>categories/C/</loc>
+    <loc>categories/Hexo/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>categories/Hexo/</loc>
+    <loc>categories/C/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
