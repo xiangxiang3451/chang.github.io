@@ -28,6 +28,13 @@
   </url>
 
   
+  <url>
+    <loc>tags/HEXO/</loc>
+    <lastmod>2023-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
 </urlset>
