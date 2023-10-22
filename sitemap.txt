@@ -1,5 +1,3 @@
-2023/10/22/base-C/
+2023/10/20/hexo/
 about/index.html
-2023/10/20/hello-world/
 http://0.0.0.8/219/241/45/var/www
-tags/C/

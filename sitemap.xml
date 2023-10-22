@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>2023/10/22/base-C/</loc>
+    <loc>2023/10/20/hexo/</loc>
     
     <lastmod>2023-10-22</lastmod>
     
@@ -19,15 +19,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>2023/10/20/hello-world/</loc>
-    
-    <lastmod>2023-10-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://0.0.0.8/219/241/45/var/www</loc>
@@ -36,13 +27,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>tags/C/</loc>
-    <lastmod>2023-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
 
   
