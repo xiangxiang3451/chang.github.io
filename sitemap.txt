@@ -1,5 +1,9 @@
+2023/10/22/Linux-1/
+2023/10/22/Linux/
 2023/10/20/hexo/
 about/index.html
 http://0.0.0.8/219/241/45/var/www
+tags/Linux/
 tags/HEXO/
+categories/Linux/
 categories/Hexo/

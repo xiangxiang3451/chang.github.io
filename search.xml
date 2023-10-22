@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>Linux</title>
+      <link href="/219/241/45/var/www/2023/10/22/Linux-1/"/>
+      <url>/219/241/45/var/www/2023/10/22/Linux-1/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux</title>
+      <link href="/219/241/45/var/www/2023/10/22/Linux/"/>
+      <url>/219/241/45/var/www/2023/10/22/Linux/</url>
+      
+        <content type="html"><![CDATA[<h4 id="SSH是什么？"><a href="#SSH是什么？" class="headerlink" title="SSH是什么？"></a>SSH是什么？</h4><p>我们通过SSH客户端连接到SSH服务器的远程机器上</p><p>优点：</p><ol><li>数据加密，安全性</li><li>数据压缩，传输速度</li></ol><p>ssh的简单使用：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Linux">ssh [-p port] user@remote<br></code></pre></td></tr></table></figure><h4 id="Linux的常用命令"><a href="#Linux的常用命令" class="headerlink" title="Linux的常用命令"></a>Linux的常用命令</h4><h5 id="1-查看目录内容"><a href="#1-查看目录内容" class="headerlink" title="1.查看目录内容"></a>1.查看目录内容</h5><p>ls命令</p><h5 id="2-切换目录"><a href="#2-切换目录" class="headerlink" title="2.切换目录"></a>2.切换目录</h5><p>cd</p><table><thead><tr><th>命令</th><th>含义</th></tr></thead><tbody><tr><td>cd</td><td>切换到当前用户的主目录(&#x2F;home&#x2F;用户目录)</td></tr><tr><td>cd ~</td><td>切换到当前用户的主目录(&#x2F;home&#x2F;用户目录)</td></tr><tr><td>cd .</td><td>保持在当前目录不变</td></tr><tr><td>cd …</td><td>切换到上级目录</td></tr><tr><td>cd -</td><td>可以在最近两次工作目录之间来回切换</td></tr></tbody></table><h5 id="3-创建和操作删除"><a href="#3-创建和操作删除" class="headerlink" title="3.创建和操作删除"></a>3.创建和操作删除</h5><h6 id="touch"><a href="#touch" class="headerlink" title="touch"></a>touch</h6><blockquote><p>创建文件或者修改文件的末次修改日期</p></blockquote><h6 id="mkdir"><a href="#mkdir" class="headerlink" title="mkdir"></a>mkdir</h6><p>创建目录</p><table><thead><tr><th>选项</th><th>含义</th></tr></thead><tbody><tr><td>-p</td><td>可以递归创建目录</td></tr></tbody></table><h6 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h6><p>删除文件或目录</p><table><thead><tr><th>-f</th><th>强制删除，忽略不存在的文件，无需提示</th></tr></thead><tbody><tr><td>-r</td><td>递归地删除目录下的内容，<strong>删除文件夹 时必须加此参数</strong></td></tr></tbody></table><h6 id="cat"><a href="#cat" class="headerlink" title="cat"></a>cat</h6><p>查看文件内容</p><table><thead><tr><th>cat 文件名</th><th>concatenate</th><th>查看文件内容、创建文件、文件合并、追加文件内容等功能</th><th></th></tr></thead><tbody><tr><td>02</td><td>more 文件名</td><td>more</td><td>分屏显示文件内容</td></tr><tr><td>03</td><td>grep 搜索文本 文件名</td><td>grep</td><td>搜索文本文件内容</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何使用HEXO创建文章</title>
       <link href="/219/241/45/var/www/2023/10/20/hexo/"/>
       <url>/219/241/45/var/www/2023/10/20/hexo/</url>
