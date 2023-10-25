@@ -24,7 +24,7 @@
 <meta property="og:description" content="认识Qt，Qt的按钮，窗口，坐标体系和常用的API函数">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-10-25T18:19:15.000Z">
-<meta property="article:modified_time" content="2023-10-25T19:24:45.848Z">
+<meta property="article:modified_time" content="2023-10-25T19:25:59.044Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Qt">
 <meta name="twitter:card" content="summary_large_image">
@@ -223,7 +223,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          925 words
+          978 words
         
       </span>
     
@@ -234,7 +234,7 @@
         
         
         
-          8 mins
+          9 mins
         
       </span>
     
@@ -315,7 +315,9 @@
 <p>2.创建按钮方法二：（高级）</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-comment">//第二种创建</span><br>   QPushButton * btn2 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">QPushButton</span>(<span class="hljs-string">&quot;按键1&quot;</span>,<span class="hljs-keyword">this</span>);<br>   <span class="hljs-comment">//重新指定窗口大小</span><br>   <span class="hljs-keyword">this</span>-&gt;<span class="hljs-built_in">resize</span>(<span class="hljs-number">600</span>,<span class="hljs-number">400</span>);<br><br>   <span class="hljs-comment">//设置窗口标题</span><br>   <span class="hljs-keyword">this</span>-&gt;<span class="hljs-built_in">setWindowTitle</span>(<span class="hljs-string">&quot;第一个项目&quot;</span>);<br><br>   <span class="hljs-comment">//限制窗口大小</span><br>   <span class="hljs-keyword">this</span>-&gt;<span class="hljs-built_in">setFixedSize</span>(<span class="hljs-number">600</span>,<span class="hljs-number">400</span>);<br></code></pre></td></tr></table></figure>
 
-<h4 id="Qt的窗口坐标体系"><a href="#Qt的窗口坐标体系" class="headerlink" title="Qt的窗口坐标体系"></a>Qt的窗口坐标体系</h4>
+<h4 id="Qt的窗口坐标体系"><a href="#Qt的窗口坐标体系" class="headerlink" title="Qt的窗口坐标体系"></a>Qt的窗口坐标体系</h4><blockquote>
+<p>是以父窗口的左上角为0,0<br>以向右的方向为x的正方向<br>以向下的方向为y的正方向<br>顶层窗口就是以屏幕左上角为0,0</p>
+</blockquote>
 <h4 id="Qt常用的API函数"><a href="#Qt常用的API函数" class="headerlink" title="Qt常用的API函数"></a>Qt常用的API函数</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs c++">move 移动窗口到父窗口某个坐标<br>resize 重新设置窗口的大小<br>setFixedSize 设置窗口的固定大小<br>setWindowTitle 设置窗口标题<br>setGeometry 同时设置窗口位置和大小，相当于move和resize的结合体<br></code></pre></td></tr></table></figure>
 
 
