@@ -4,8 +4,8 @@
 about/index.html
 http://0.0.0.8/219/241/45/var/www
 /tags/Qt/
-/tags/Linux/
 /tags/HEXO/
+/tags/Linux/
 categories/Qt/
-categories/Linux/
 categories/Hexo/
+categories/Linux/
