@@ -47,13 +47,6 @@
 
   
   <url>
-    <loc>/tags/HEXO/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>/tags/Linux/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -67,14 +60,14 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>categories/Hexo/</loc>
+    <loc>/tags/HEXO/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>categories/Linux/</loc>
@@ -85,6 +78,13 @@
   
   <url>
     <loc>categories/Qt/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>categories/Hexo/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

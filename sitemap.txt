@@ -3,9 +3,9 @@
 /2023/10/22/Linux%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/index.html
 about/index.html
 http://0.0.0.8/219/241/45/var/www
-/tags/HEXO/
 /tags/Linux/
 /tags/Qt/
-categories/Hexo/
+/tags/HEXO/
 categories/Linux/
 categories/Qt/
+categories/Hexo/
