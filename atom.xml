@@ -30,7 +30,7 @@
     
     
     
-    <category term="Qt" scheme="/categories/Qt/"/>
+    <category term="Qt" scheme="categories/Qt/"/>
     
     
     <category term="Qt" scheme="/tags/Qt/"/>
@@ -51,7 +51,7 @@
     
     
     
-    <category term="Linux" scheme="/categories/Linux/"/>
+    <category term="Linux" scheme="categories/Linux/"/>
     
     
     <category term="Linux" scheme="/tags/Linux/"/>
@@ -72,7 +72,7 @@
     
     
     
-    <category term="Hexo" scheme="/categories/Hexo/"/>
+    <category term="Hexo" scheme="categories/Hexo/"/>
     
     
     <category term="HEXO" scheme="/tags/HEXO/"/>
