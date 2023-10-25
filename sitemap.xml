@@ -47,7 +47,7 @@
 
   
   <url>
-    <loc>/tags/Qt/</loc>
+    <loc>/tags/HEXO/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -61,7 +61,7 @@
   </url>
   
   <url>
-    <loc>/tags/HEXO/</loc>
+    <loc>/tags/Qt/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -70,7 +70,7 @@
 
   
   <url>
-    <loc>categories/Qt/</loc>
+    <loc>categories/Hexo/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -84,7 +84,7 @@
   </url>
   
   <url>
-    <loc>categories/Hexo/</loc>
+    <loc>categories/Qt/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
