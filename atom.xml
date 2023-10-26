@@ -3,11 +3,11 @@
   <title>Xiangxiang</title>
   
   
-  <link href="atom.xml" rel="self"/>
+  <link href="https://xiangxiang3451.github.io/chang.github.io/atom.xml" rel="self"/>
   
-  <link href="http://0.0.0.8/219/241/45/var/www/"/>
+  <link href="https://xiangxiang3451.github.io/chang.github.io/"/>
   <updated>2023-10-26T12:53:39.434Z</updated>
-  <id>http://0.0.0.8/219/241/45/var/www/</id>
+  <id>https://xiangxiang3451.github.io/chang.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>信号与槽</title>
-    <link href="/2023/10/26/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%A7%BD/index.html"/>
-    <id>/2023/10/26/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%A7%BD/index.html</id>
+    <link href="https://xiangxiang3451.github.io/chang.github.io/2023/10/26/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%A7%BD/index.html"/>
+    <id>https://xiangxiang3451.github.io/chang.github.io/2023/10/26/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%A7%BD/index.html</id>
     <published>2023-10-26T11:10:26.000Z</published>
     <updated>2023-10-26T12:53:39.434Z</updated>
     
@@ -30,17 +30,17 @@
     
     
     
-    <category term="Qt" scheme="categories/Qt/"/>
+    <category term="Qt" scheme="https://xiangxiang3451.github.io/chang.github.io/categories/Qt/"/>
     
     
-    <category term="信号与槽" scheme="/tags/信号与槽/"/>
+    <category term="信号与槽" scheme="https://xiangxiang3451.github.io/chang.github.io/tags/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%A7%BD/"/>
     
   </entry>
   
   <entry>
     <title>初识Qt</title>
-    <link href="/2023/10/26/%E5%88%9D%E8%AF%86Qt/index.html"/>
-    <id>/2023/10/26/%E5%88%9D%E8%AF%86Qt/index.html</id>
+    <link href="https://xiangxiang3451.github.io/chang.github.io/2023/10/26/%E5%88%9D%E8%AF%86Qt/index.html"/>
+    <id>https://xiangxiang3451.github.io/chang.github.io/2023/10/26/%E5%88%9D%E8%AF%86Qt/index.html</id>
     <published>2023-10-25T18:19:15.000Z</published>
     <updated>2023-10-25T19:27:23.209Z</updated>
     
@@ -51,17 +51,17 @@
     
     
     
-    <category term="Qt" scheme="categories/Qt/"/>
+    <category term="Qt" scheme="https://xiangxiang3451.github.io/chang.github.io/categories/Qt/"/>
     
     
-    <category term="按钮" scheme="/tags/按钮/"/>
+    <category term="按钮" scheme="https://xiangxiang3451.github.io/chang.github.io/tags/%E6%8C%89%E9%92%AE/"/>
     
   </entry>
   
   <entry>
     <title>Linux简单命令</title>
-    <link href="/2023/10/22/Linux%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/index.html"/>
-    <id>/2023/10/22/Linux%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/index.html</id>
+    <link href="https://xiangxiang3451.github.io/chang.github.io/2023/10/22/Linux%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/index.html"/>
+    <id>https://xiangxiang3451.github.io/chang.github.io/2023/10/22/Linux%E7%AE%80%E5%8D%95%E5%91%BD%E4%BB%A4/index.html</id>
     <published>2023-10-22T12:07:53.000Z</published>
     <updated>2023-10-22T12:14:56.127Z</updated>
     
@@ -72,17 +72,17 @@
     
     
     
-    <category term="Linux" scheme="categories/Linux/"/>
+    <category term="Linux" scheme="https://xiangxiang3451.github.io/chang.github.io/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="/tags/Linux/"/>
+    <category term="Linux" scheme="https://xiangxiang3451.github.io/chang.github.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>如何使用HEXO创建文章</title>
-    <link href="/2023/10/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8HEXO%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0/index.html"/>
-    <id>/2023/10/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8HEXO%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0/index.html</id>
+    <link href="https://xiangxiang3451.github.io/chang.github.io/2023/10/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8HEXO%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0/index.html"/>
+    <id>https://xiangxiang3451.github.io/chang.github.io/2023/10/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8HEXO%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0/index.html</id>
     <published>2023-10-20T11:17:18.870Z</published>
     <updated>2023-10-25T18:41:28.249Z</updated>
     
@@ -93,10 +93,10 @@
     
     
     
-    <category term="Hexo" scheme="categories/Hexo/"/>
+    <category term="Hexo" scheme="https://xiangxiang3451.github.io/chang.github.io/categories/Hexo/"/>
     
     
-    <category term="HEXO" scheme="/tags/HEXO/"/>
+    <category term="HEXO" scheme="https://xiangxiang3451.github.io/chang.github.io/tags/HEXO/"/>
     
   </entry>
   
