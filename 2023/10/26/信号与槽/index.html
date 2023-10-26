@@ -24,7 +24,7 @@
 <meta property="og:description" content="了解Qt信号与槽的机制，如何定义和使用槽">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-10-26T11:10:26.000Z">
-<meta property="article:modified_time" content="2023-10-26T12:39:15.145Z">
+<meta property="article:modified_time" content="2023-10-26T12:51:43.631Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="信号与槽">
 <meta name="twitter:card" content="summary_large_image">
@@ -223,7 +223,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.1k words
+          1.6k words
         
       </span>
     
@@ -234,7 +234,7 @@
         
         
         
-          10 mins
+          14 mins
         
       </span>
     
@@ -315,6 +315,8 @@
 <h5 id="student-h"><a href="#student-h" class="headerlink" title="student.h"></a>student.h</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">ifndef</span> STUDENT_H</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> STUDENT_H</span><br><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;QObject&gt;</span></span><br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span> : <span class="hljs-keyword">public</span> QObject<br>&#123;<br>    Q_OBJECT<br><span class="hljs-keyword">public</span>:<br>    <span class="hljs-function"><span class="hljs-keyword">explicit</span> <span class="hljs-title">Student</span><span class="hljs-params">(QObject *parent = <span class="hljs-literal">nullptr</span>)</span></span>;<br><br><span class="hljs-keyword">public</span> slots:<br><br>    <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">toLunch</span><span class="hljs-params">()</span></span>;<br>&#125;;<br><span class="hljs-meta">#<span class="hljs-keyword">endif</span> <span class="hljs-comment">// STUDENT_H</span></span><br></code></pre></td></tr></table></figure>
 
 <h5 id="student-cpp"><a href="#student-cpp" class="headerlink" title="student.cpp"></a>student.cpp</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs C++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;student.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;QDebug&gt;</span></span><br>Student::<span class="hljs-built_in">Student</span>(QObject *parent) : <span class="hljs-built_in">QObject</span>(parent)<br>&#123;<br><br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Student::toLunch</span><span class="hljs-params">()</span></span>&#123;<br>    <span class="hljs-built_in">qDebug</span>()&lt;&lt;<span class="hljs-string">&quot;我们吃饭吧&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h5 id="main-cpp"><a href="#main-cpp" class="headerlink" title="main.cpp"></a>main.cpp</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs C++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;QCoreApplication&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;QObject&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;QDebug&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;Teacher.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;Student.h&quot;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">(<span class="hljs-type">int</span> argc, <span class="hljs-type">char</span> *argv[])</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-function">QCoreApplication <span class="hljs-title">app</span><span class="hljs-params">(argc, argv)</span></span>;<br><br>    Teacher teacher;<br>    Student student;<br><br>    <span class="hljs-comment">// 连接老师的信号和学生的槽</span><br>    QObject::<span class="hljs-built_in">connect</span>(&amp;teacher, <span class="hljs-built_in">SIGNAL</span>(<span class="hljs-built_in">hungerSignal</span>()), &amp;student, <span class="hljs-built_in">SLOT</span>(<span class="hljs-built_in">inviteTeacherToLunch</span>()));<br><br>    <span class="hljs-comment">// 老师宣布肚子饿了，触发信号</span><br>    teacher.<span class="hljs-built_in">announceHunger</span>();<br><br>    <span class="hljs-keyword">return</span> app.<span class="hljs-built_in">exec</span>();<br>&#125;<br></code></pre></td></tr></table></figure>
 
 
                 

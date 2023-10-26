@@ -5,8 +5,8 @@
 about/index.html
 http://0.0.0.8/219/241/45/var/www
 /tags/Linux/
-/tags/%E6%8C%89%E9%92%AE/
 /tags/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%A7%BD/
+/tags/%E6%8C%89%E9%92%AE/
 /tags/HEXO/
 categories/Linux/
 categories/Qt/
